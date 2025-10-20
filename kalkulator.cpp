@@ -22,7 +22,7 @@ double podeli(double prviBroj, double drugiBroj) {
 }
 
 int main() {
-
+    // fast-forward
     cout << "Jednostavan kalkulator" << endl;
     cout << "Izaberi operaciju:" << endl;
     cout << "1. Sabiranje" << endl;
