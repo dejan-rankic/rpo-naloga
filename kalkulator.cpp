@@ -41,7 +41,7 @@ int main() {
 
     switch(izborOperacije) {
         case 1:
-            cout << "Rezultat: " << saberi(prviBroj, drugiBroj) << endl;
+            cout << "Rezultat (nova veja): " << saberi(prviBroj, drugiBroj) << endl;
             break;
         case 2:
             cout << "Rezultat: " << oduzmi(prviBroj, drugiBroj) << endl;
