@@ -22,6 +22,7 @@ double podeli(double prviBroj, double drugiBroj) {
 }
 
 int main() {
+    // sprememba za diff
     cout << "Jednostavan kalkulator" << endl;
     cout << "Izaberi operaciju:" << endl;
     cout << "1. Sabiranje" << endl;
@@ -41,7 +42,7 @@ int main() {
 
     switch(izborOperacije) {
         case 1:
-            cout << "Rezultat: " << saberi(prviBroj, drugiBroj) << endl;
+            cout << "Rezultat (konflikt test): " << saberi(prviBroj, drugiBroj) << endl;
             break;
         case 2:
             cout << "Rezultat: " << oduzmi(prviBroj, drugiBroj) << endl;
