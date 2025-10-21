@@ -1,0 +1,19 @@
+name: CI Preverjanje kode
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pridobi kodo
+        uses: actions/checkout@v3
+
+      - name: Namesti orodja
+        run: sudo apt-get install -y g++
+
+      - name: Preveri prevajanje
+        run: g++ -std=c++17 -o program *.cpp
+
