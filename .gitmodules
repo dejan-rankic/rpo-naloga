@@ -1,0 +1,3 @@
+[submodule "kalkulator"]
+	path = kalkulator
+	url = git@github.com:dejan-rankic/rpo-naloga.git
