@@ -22,6 +22,10 @@ double podeli(double prviBroj, double drugiBroj) {
 }
 
 int main() {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 52e3fbf (Revert "Fast-forward commit")
     cout << "Jednostavan kalkulator" << endl;
     cout << "Izaberi operaciju:" << endl;
     cout << "1. Sabiranje" << endl;
